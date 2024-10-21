@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class SD {
     private int capacity;
-    private ArrayList<Picture> pictures = new ArrayList<Picture>()
+    private ArrayList<Picture> pictures = new ArrayList<Picture>();
     private int storage;
     private int warningAmount;
 
