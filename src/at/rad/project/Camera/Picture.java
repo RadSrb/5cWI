@@ -1,5 +1,5 @@
 package at.rad.project.Camera;
-
+//nein
 public class Picture {
     private int size;
     private String name;
