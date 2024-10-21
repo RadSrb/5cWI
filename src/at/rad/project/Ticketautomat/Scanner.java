@@ -1,4 +1,4 @@
-package Ticketautomat;
+package at.rad.project.Ticketautomat;
 
 public class Scanner {
     private Ticket ticket;

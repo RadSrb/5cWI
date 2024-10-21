@@ -1,4 +1,4 @@
-package at.rad.project;
+package at.rad.project.Ticketautomat;
 
 public class Main {
     public static void main(String[] args) {

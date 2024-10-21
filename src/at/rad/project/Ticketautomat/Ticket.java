@@ -1,4 +1,6 @@
-package at.rad.project;
+package Ticketautomat;
+
+import java.util.Random;
 
 import java.util.Random;
 
@@ -36,4 +38,8 @@ public class Ticket {
     }
 
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 755477db2cc604dc795ec2ecdbc68a60a4583ec5
