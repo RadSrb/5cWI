@@ -1,11 +1,11 @@
 package at.rad.project.Camera;
 
-public class File {
+public class Picture {
     private int size;
     private String name;
     private long creationDate;
 
-    private File(int size, String name)
+    private Picture(int size, String name)
     {
         this.size = size;
         this.name = name;
