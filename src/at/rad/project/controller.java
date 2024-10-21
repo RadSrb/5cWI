@@ -1,4 +1,4 @@
-package Ticketautomat;
+package at.rad.project;
 
 import java.util.ArrayList;
 

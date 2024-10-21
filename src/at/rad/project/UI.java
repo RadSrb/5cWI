@@ -1,4 +1,4 @@
-package Ticketautomat;
+package at.rad.project;
 
 public class UI {
     Controller controller;
