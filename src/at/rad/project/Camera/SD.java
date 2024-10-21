@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class SD {
     private int capacity;
-    private ArrayList<Picture> pictures = new ArrayList<Picture>();
+    private ArrayList<File> pictures = new ArrayList<File>();
     private int storage;
     private int warningAmount;
 
@@ -15,7 +15,7 @@ public class SD {
         storage = this.capacity;
     }
 
-    public void AddPicture(Picture pic)
+    public void AddPicture(File pic)
     {
         if(storage -pic.getSize() <= 0)
         {
