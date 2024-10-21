@@ -1,28 +1,33 @@
-package at.rad.project.Camera;
+package at.rad.project.Camera
+
+import java.util.Random;
 
 public class Camera {
-    private int pixel;
+    private int pixels;
+    private int weight;
+    private int pictureSize;
+    private SD sd;
+    private Random random = new Random();
 
-    public Camera(int pixel) {
-        this.pixel = pixel;
+    public Camera(int pixels, int weight, int pictureSize, SD sd)
+    {
+        this.pixels = pixels;
+        this.weight = weight;
+        this.pictureSize = pictureSize;
+        this.sd = sd;
     }
 
-    public int getPixel() {
-        return pixel;
+    public void takePicture()
+    {
+        Picture newPicture = new Picture(pictureSize, "" + random.nextInt() + ".jpg");
+        System.out.println("Picture Taken: " + newPicture.getName());
+        sd.SavePicture(newPicture);
     }
 
-    public String getPicture() {
-        return "Das Bild wurde mit einer Kamera von " + pixel + " Pixel aufgenommen.";
-    }
-
-    public void printImages(int numberOfImages) {
-        for (int i = 0; i < numberOfImages; i++) {
-            System.out.println("Bild " + (i + 1) + ": " + getPicture());
+    public void printAllPictures()
+    {
+        for (Picture picture : sd.GetAllFiles()) {
+            System.out.println(picture.getName());
         }
-    }
-
-    public static void main(String[] args) {
-        Camera camera = new Camera(1080);
-        camera.printImages(5);
     }
 }

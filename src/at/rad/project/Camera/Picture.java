@@ -15,4 +15,5 @@ public class Picture {
     public int getSize() {
         return size;
     }
+
 }
