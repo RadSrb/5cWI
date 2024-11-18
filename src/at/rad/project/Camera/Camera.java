@@ -1,4 +1,4 @@
-package at.rad.project.Camera
+package at.rad.project.Camera;
 
 import java.util.Random;
 
