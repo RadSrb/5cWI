@@ -1,12 +1,11 @@
 package at.rad.project.car;
 
-import java.util.Random;
-
 import at.rad.project.car.exceptions.CarException;
 import at.rad.project.car.exceptions.EngineException;
+import java.util.Random;
 
 public class Car {
-    private Engine engine;
+    private Engine engine; //Gedächtnisvariable Instanzvariable
 
     public Car(Engine e) {
         this.engine = e;
@@ -16,7 +15,7 @@ public class Car {
         Random r = new Random();
         engine.start();
         if (r.nextBoolean()) {
-            throw new CarException("Auto hat einen technischen Defekt!");
+            throw new CarException("Car broke!");
         }
     }
 }

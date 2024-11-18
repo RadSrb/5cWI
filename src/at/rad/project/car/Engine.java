@@ -1,8 +1,7 @@
 package at.rad.project.car;
 
-import java.util.Random;
-
 import at.rad.project.car.exceptions.EngineException;
+import java.util.Random;
 
 public class Engine {
     private int horsePower;
@@ -17,7 +16,7 @@ public class Engine {
         if (r.nextBoolean()) {
             System.out.println("Starting Engine...");
         } else {
-            throw new EngineException("Engine abgesoffen");
+            throw new EngineException("Engine start failed");
         }
     }
 }
