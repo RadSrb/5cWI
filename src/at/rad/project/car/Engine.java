@@ -1,4 +1,4 @@
-package at.rad.project.car.car;
+package at.rad.project.car;
 
 import java.util.Random;
 
