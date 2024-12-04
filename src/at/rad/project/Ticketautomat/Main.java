@@ -11,12 +11,12 @@ public class Main {
 
 
         ui.ButtonPressed();
-        Ticket testTicket = controller.getTickets().get(0); 
-        testTicket.setCreatedTimeStamp(testTicket.getCreatedTimeStamp() - 150000);
-        scanner.InsertTicket(testTicket);
-        System.out.println(scanner.getPrice() + "Euro");
-        ui.InsertMoney(0.50);
-        ui.InsertMoney(2.00);
+        // Ticket testTicket = controller.getTickets().get(0); 
+        // testTicket.setCreatedTimeStamp(testTicket.getCreatedTimeStamp() - 150000);
+        // scanner.InsertTicket(testTicket);
+        // System.out.println(scanner.getPrice() + "Euro");
+        // ui.InsertMoney(0.50);
+        // ui.InsertMoney(2.00);
 
         //scanner.InsertTicket(controller.getTickets().get(0));
     }

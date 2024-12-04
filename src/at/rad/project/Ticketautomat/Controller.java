@@ -1,10 +1,8 @@
 package at.rad.project.Ticketautomat;
 
-import java.util.ArrayList;
-
 public class Controller {
     Printer printer;
-    ArrayList<Ticket> tickets = new ArrayList<Ticket>();
+    // ArrayList<Ticket> tickets = new ArrayList<Ticket>();
 
     public Controller(Printer printer)
     {
@@ -13,12 +11,12 @@ public class Controller {
 
     public void CreateTicket()
     {
-        Ticket ticket = printer.PrintTicket();
-        tickets.add(ticket);
+        // Ticket ticket = printer.PrintTicket();
+        // tickets.add(ticket);
     }
 
-    public ArrayList<Ticket> getTickets() {
-        return tickets;
-    }
+    // public ArrayList<Ticket> getTickets() {
+    //     return tickets;
+    // }
 
 }

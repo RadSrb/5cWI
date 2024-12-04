@@ -8,7 +8,7 @@ public class SD {
     private int storage;
     private int warningAmount;
 
-    private SD(int capacity, int warningAmount)
+    public SD(int capacity, int warningAmount)
     {
         this.capacity = capacity;
         this.warningAmount = warningAmount;

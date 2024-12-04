@@ -19,15 +19,15 @@ public class Camera {
 
     public void takePicture()
     {
-        Picture newPicture = new Picture(pictureSize, "" + random.nextInt() + ".jpg");
-        System.out.println("Picture Taken: " + newPicture.getName());
-        sd.SavePicture(newPicture);
+        // Picture newPicture = new Picture(pictureSize, "" + random.nextInt() + ".jpg");
+        // System.out.println("Picture Taken: " + newPicture.getName());
+        // sd.SavePicture(newPicture);
     }
 
     public void printAllPictures()
     {
-        for (Picture picture : sd.GetAllFiles()) {
-            System.out.println(picture.getName());
-        }
+        // for (Picture picture : sd.GetAllFiles()) {
+        //     System.out.println(picture.getName());
+        // }
     }
 }

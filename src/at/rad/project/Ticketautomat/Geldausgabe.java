@@ -1,4 +1,4 @@
-package at.rad.project;
+package at.rad.project.Ticketautomat;
 
 public class Geldausgabe {    
     public void returnChange(double change)
