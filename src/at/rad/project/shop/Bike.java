@@ -10,7 +10,12 @@ public class Bike implements Product {
  }
 
 
- public String getStyle() {
+ public Bike(String string, String string2, int i) {
+    //TODO Auto-generated constructor stub
+}
+
+
+public String getStyle() {
     return style;
  }
 
@@ -29,8 +34,13 @@ public String getColor() {
 
 @Override
 public String getModel() {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'getModel'");
+return "KTM";
+}
+
+
+@Override
+public int getPrice() {
+ return 1000;
 }
 
 

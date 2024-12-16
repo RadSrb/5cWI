@@ -15,9 +15,10 @@ public class Gui {
     public void run() {
         while (true) {
             System.out.println("1 Show Products");
-            System.out.println("2 Show Cars");
-            System.out.println("3 Show Bikes");
-            System.out.println("4 Show Planes");
+            System.out.println("2 Show Stock Value");
+            System.out.println("3 Show Cars");
+            System.out.println("4 Show Bikes");
+            System.out.println("5 Show Planes");
 
             int choice = scanner.nextInt();
             switch (choice) {
@@ -26,14 +27,18 @@ public class Gui {
                     break;
 
                 case 2:
-                    showCars();
+                    showStockValue();
                     break;
 
                 case 3:
-                    showBikes();
+                    showCars();
                     break;
 
                 case 4:
+                    showBikes();
+                    break;
+
+                case 5:
                     showPlanes();
                     break;
 
@@ -79,4 +84,13 @@ public class Gui {
             }
         }
     }   
+
+    private void showStockValue() {
+        System.out.println("show Stock Value");
+        double totalValue = 0;
+        for (Product product : products) {
+            totalValue += product.getPrice();   
+            System.out.println("Total stock value: €" + totalValue);
+        }
+    }
 }

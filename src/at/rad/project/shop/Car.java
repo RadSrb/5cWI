@@ -11,6 +11,12 @@ public class Car implements Product {
 
 
 
+    public Car(String string, String string2, int i) {
+        //TODO Auto-generated constructor stub
+    }
+
+
+
     public String getName() {
         return name;
     }
@@ -31,7 +37,13 @@ public class Car implements Product {
 
     @Override
     public String getModel() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getModel'");
+        return "Audi";
+    }
+
+
+
+    @Override
+    public int getPrice() {
+   return 10000;
     }
 }

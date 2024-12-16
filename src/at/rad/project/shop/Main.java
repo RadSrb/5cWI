@@ -13,6 +13,7 @@ public class Main {
         gui.addProduct(p1);
         gui.addProduct(new Car("BMW", "Mercedes"));
         gui.addProduct(new Car("Mercedes", "Black"));
+        gui.addProduct(new Car("Audi", "Blue"));
 
         gui.run();
 }
