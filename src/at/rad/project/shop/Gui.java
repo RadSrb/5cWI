@@ -80,7 +80,7 @@ public class Gui {
         System.out.println("show Planes");
         for (Product product : products) {
             if (product instanceof Plane) {
-                System.out.println("Name: " + product.getName() + " ,model: " + product.getModel());
+                System.out.println("Name: " + product.getName());// + " ,model: " + product.getModel()
             }
         }
     }   
