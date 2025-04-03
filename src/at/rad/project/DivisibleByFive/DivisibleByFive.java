@@ -1,6 +1,6 @@
-package at.rad.project.DivisibleBy5;
+package at.rad.project.DivisibleByFive;
 
-public class DivisibleBy5 {
+public class DivisibleByFive {
     public static void main(String[] args) {
         for(int i = 1; i <=50;i++){
             if(i % 5==0)
@@ -11,6 +11,6 @@ public class DivisibleBy5 {
             }
         
         }
-    }
+    } 
 
 }
