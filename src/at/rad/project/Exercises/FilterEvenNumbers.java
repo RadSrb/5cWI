@@ -1,4 +1,4 @@
-package at.rad.project.FilterEvenNumbers;
+package at.rad.project.Exercises;
 
 public class FilterEvenNumbers {
     

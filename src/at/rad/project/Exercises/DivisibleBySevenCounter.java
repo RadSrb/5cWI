@@ -1,4 +1,4 @@
-package at.rad.project.DivisibleBySevenCounter;
+package at.rad.project.Exercises;
 
 public class DivisibleBySevenCounter {
 

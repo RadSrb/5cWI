@@ -1,4 +1,4 @@
-package at.rad.project.MultiplesOf3and4;
+package at.rad.project.Exercises;
 
 public class MultiplesOf3and4 {
 

@@ -1,4 +1,4 @@
-package at.rad.project.SumWithoutMultiplesOfFive;
+package at.rad.project.Exercises;
 
 public class SumWithoutMultiplesOfFive {
 

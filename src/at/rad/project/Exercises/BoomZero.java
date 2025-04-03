@@ -1,4 +1,4 @@
-package at.rad.project.Boom;
+package at.rad.project.Exercises;
 
 public class BoomZero {
     

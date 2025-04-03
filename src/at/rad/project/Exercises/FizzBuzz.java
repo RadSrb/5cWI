@@ -1,4 +1,4 @@
-package at.rad.project.FizzBuzz;
+package at.rad.project.Exercises;
 
 public class FizzBuzz {
 

@@ -1,4 +1,4 @@
-package at.rad.project.LogicalConditions;
+package at.rad.project.Exercises;
 
 public class LogicalConditions {
     

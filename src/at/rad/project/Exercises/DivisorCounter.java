@@ -1,4 +1,4 @@
-package at.rad.project.DivisorCounter;
+package at.rad.project.Exercises;
 
 public class DivisorCounter {
     public static void main(String[] args) {

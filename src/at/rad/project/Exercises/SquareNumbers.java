@@ -1,4 +1,4 @@
-package at.rad.project.SquareNumbers;
+package at.rad.project.Exercises;
 
 public class SquareNumbers {
     

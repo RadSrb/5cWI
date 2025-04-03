@@ -1,4 +1,4 @@
-package at.rad.project.SumOddNumbers;
+package at.rad.project.Exercises;
 
 public class SumOddNumbers {
     

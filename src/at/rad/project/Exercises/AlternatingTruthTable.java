@@ -1,4 +1,4 @@
-package at.rad.project.AlternatingTruthTable;
+package at.rad.project.Exercises;
 
 public class AlternatingTruthTable {
 
